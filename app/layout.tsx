@@ -1,10 +1,11 @@
 import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
+import { Playfair_Display, Montserrat } from "next/font/google";
 import "./globals.css";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
+const test = Playfair_Display({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Web magic crafter",
