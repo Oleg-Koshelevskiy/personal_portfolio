@@ -19,9 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body
-        className={`${montserrat.className} silver-gradient flex flex-col justify-between`}
-      >
+      <body className={`${montserrat.className} bg-stone-950 relative`}>
         <Header />
         {children}
         <Footer />
