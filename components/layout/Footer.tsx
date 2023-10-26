@@ -11,9 +11,13 @@ const Footer = () => {
           height={30}
           alt="logo"
         />
-        <div className="text-sm self-center">Web Magic Crafter &copy; </div>
+        <div className="text-sm self-center text-gray-200">
+          Web Magic Crafter &copy;{" "}
+        </div>
       </div>
-      <div className="text-sm self-center mr-2">All rights reserved</div>
+      <div className="text-sm self-center mr-2 text-gray-200">
+        All rights reserved
+      </div>
     </div>
   );
 };

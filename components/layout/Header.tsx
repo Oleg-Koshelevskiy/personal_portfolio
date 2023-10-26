@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import MobileNav from "../MobileNav";
 
 const links = [
   { id: 1, name: "about", href: "#about" },
@@ -21,7 +22,7 @@ const Header = () => {
             className="object-contain"
           />
           <div className="flex flex-col justify-center">
-            <h2 className="text-1 text-xl lg:text-2xl font-bold uppercase text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold uppercase text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
               Web magic crafter
             </h2>
             <p className="italic text-xs lg:text-sm font-semibold text-slate-200">
@@ -40,6 +41,7 @@ const Header = () => {
             </Link>
           ))}
         </nav>
+        <MobileNav links={links} />
       </div>
     </header>
   );
