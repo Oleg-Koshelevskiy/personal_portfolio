@@ -1,7 +1,12 @@
-import { links } from "@/utils";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+
+const links = [
+  { id: 1, name: "about", href: "#about" },
+  { id: 2, name: "portfolio", href: "#projects" },
+  { id: 3, name: "contacts", href: "#contact" },
+];
 
 const Header = () => {
   return (

@@ -1,13 +1,15 @@
+import AboutSection from "@/components/layout/AboutSection";
+import EmailSection from "@/components/layout/EmailSection";
 import HeroSection from "@/components/layout/HeroSection";
+import ProjectsSection from "@/components/layout/ProjectsSection";
 
 export default function Home() {
   return (
-    <main className="flex flex-col justify-between items-center gap-40 text-white">
+    <main className="container mx-auto text-white">
       <HeroSection />
-      <section>Skills</section>
-      <section>Portfolio</section>
-      <section>Testimonials</section>
-      <section>Contacts</section>
+      <AboutSection />
+      <ProjectsSection />
+      <EmailSection />
     </main>
   );
 }
