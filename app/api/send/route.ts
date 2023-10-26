@@ -4,7 +4,7 @@ import { Resend } from "resend";
 import * as React from "react";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
-// const fromEmail = process.env.FROM_EMAIL;
+// const fromEmail = process.env.local.FROM_EMAIL;
 
 export async function POST(req: NextRequest) {
   const { email, subject, message } = await req.json();
