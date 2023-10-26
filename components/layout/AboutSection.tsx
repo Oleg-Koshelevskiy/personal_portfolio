@@ -53,8 +53,8 @@ const AboutSection = () => {
   };
 
   return (
-    <section className="text-white" id="about">
-      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
+    <section className="text-white mt-20" id="about">
+      <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:pt-24 xl:px-16">
         <Image
           src="/assets/images/laptop.jpg"
           width={500}
