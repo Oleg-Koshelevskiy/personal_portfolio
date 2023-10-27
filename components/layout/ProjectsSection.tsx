@@ -19,7 +19,7 @@ const projectsData = [
     title: "Weather and Map",
     description: "React Weather and Map Application",
     image: "assets//images/projects/weather.jpg",
-    tag: ["All", "Opensouse"],
+    tag: ["All", "Opensouce"],
     gitUrl: "https://github.com/Oleg-Koshelevskiy/Weather-and-map",
     previewUrl: "https://weather-and-map.netlify.app/",
   },
@@ -28,7 +28,7 @@ const projectsData = [
     title: "Eco Shop",
     description: "Eco Shop E-commerce NextJS application",
     image: "assets//images/projects/eco-shop.jpg",
-    tag: ["All", "Opensouse"],
+    tag: ["All", "Opensouce"],
     gitUrl: "https://github.com/Oleg-Koshelevskiy/eco-shop",
     previewUrl: "https://eco-shop-example.vercel.app/",
   },
@@ -70,8 +70,8 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Opensouse"
-          isSelected={tag === "Opensouse"}
+          name="Opensouce"
+          isSelected={tag === "Opensouce"}
         />
       </div>
       <ul

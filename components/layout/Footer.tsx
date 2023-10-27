@@ -12,7 +12,7 @@ const Footer = () => {
           alt="logo"
         />
         <div className="text-sm self-center text-gray-200">
-          Web Magic Crafter &copy;{" "}
+          &copy; 2023 Web Magic Crafter
         </div>
       </div>
       <div className="text-sm self-center mr-2 text-gray-200">
