@@ -12,7 +12,7 @@ export async function POST(req: NextRequest) {
   try {
     const data = await resend.emails.send({
       from: "Your Name <sender@domain.com>",
-      to: ["oleg17.k@gmail.com"],
+      to: ["webmagic.crafter@gmail.com"],
       subject: subject,
       react: EmailTemplate({
         subject: subject,
