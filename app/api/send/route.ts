@@ -11,10 +11,11 @@ export async function POST(req: NextRequest) {
   console.log(email, subject, message);
   try {
     const data = await resend.emails.send({
-      from: "Your Name <sender@domain.com>",
+      from: "sender@wmc-pro.com",
       to: ["webmagic.crafter@gmail.com"],
       subject: subject,
       react: EmailTemplate({
+        email: email,
         subject: subject,
         message: message,
       }) as React.ReactElement,
