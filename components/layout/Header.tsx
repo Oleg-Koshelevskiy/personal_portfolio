@@ -12,7 +12,7 @@ const links = [
 const Header = () => {
   return (
     <header className="fixed z-10 bg-neutral-950/75 w-full">
-      <div className="container mx-auto flex justify-between gap-2 py-4">
+      <div className="container mx-auto flex justify-between gap-2 py-4 px-2">
         <Link href="/" className=" flex gap-2 justify-center align-middle">
           <Image
             src="/assets/icons/main-logo.svg"
