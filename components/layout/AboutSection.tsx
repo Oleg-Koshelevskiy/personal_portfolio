@@ -23,7 +23,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Front-End Course (React JS)</li>
-        <li>Ultimate Next.js 13 Course</li>
+        <li>Ultimate Next.js 14 Course</li>
       </ul>
     ),
   },
