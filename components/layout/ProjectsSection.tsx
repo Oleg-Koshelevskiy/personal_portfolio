@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useRef } from "react";
 import ProjectCard from "../ProjectCard";
-import { motion, useInView } from "framer-motion";
+import { motion, useInView } from "motion/react";
 import ProjectTag from "../ProjectTag";
 
 const projectsData = [
@@ -36,10 +36,10 @@ const projectsData = [
 
 const ProjectsSection = () => {
   const [tag, setTag] = useState("All");
-  const ref = useRef(null);
+  const ref = useRef<HTMLUListElement>(null);
   const isInView = useInView(ref, { once: true });
 
-  const handleTagChange = (newTag: any) => {
+  const handleTagChange = (newTag: string) => {
     setTag(newTag);
   };
 
