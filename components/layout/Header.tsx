@@ -22,7 +22,7 @@ const Header = () => {
             className="object-contain"
           />
           <div className="flex flex-col justify-center">
-            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold uppercase text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
+            <h2 className="text-lg sm:text-xl lg:text-2xl font-bold uppercase text-transparent bg-clip-text bg-linear-to-r from-primary-400 to-secondary-600">
               Web magic crafter
             </h2>
             <p className="italic text-xs lg:text-sm font-semibold text-slate-200">
@@ -35,7 +35,7 @@ const Header = () => {
             <Link
               href={item.href}
               key={item.id}
-              className="self-center text-white hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-primary-300 to-secondary-300 hover:scale-105 transition duration-300"
+              className="self-center text-white hover:text-transparent hover:bg-clip-text hover:bg-linear-to-r from-primary-300 to-secondary-300 hover:scale-105 transition duration-300"
             >
               {item.name}
             </Link>
